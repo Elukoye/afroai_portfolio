@@ -10,9 +10,7 @@
 body{
     font-family: "Times New Roman", Times, serif;
     height: 100vh;
-    overflow:hidden;
-     
-    
+    overflow:hidden;   
 }
 .landing_page_container{
      background-image: url("../images/header-bg3.png"); 
@@ -20,7 +18,6 @@ body{
      background-size: cover;
      height: 100vh;
 }
-
 /*navbar*/
 li, a{
     color: #70ad47;

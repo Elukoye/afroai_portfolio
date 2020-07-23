@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Times New Roman", Times, serif;
+    height: 100vh;
+    overflow:hidden;   
+}
+.swiper-slide{
+    background-image: url("../images/about_1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/*navbar*/
+li, a{
+    color: #70ad47;
+    font-family: "Montserrat", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+
+}
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+   
+}
+
+.nav-links{
+    list-style: none;
+}
+.nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links li a{
+    transition: all 0.3s ease 0s;
+    font-weight: 500px;
+    letter-spacing: 1px;
+}
+.nav-links li a:hover{
+     color:#fff;
+}
+h1{
+    color: #70ad47;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 20rem;
+}
+span{
+    color: #fff;
+    font-family: "Raleway", sans-serif; 
+    font-size: 1.5em;
+    font-weight: italic;
+    letter-spacing: 1.8px;
+    text-align: center;   
+    margin-left: 22rem; 
+}
