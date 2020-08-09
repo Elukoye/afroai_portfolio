@@ -23,13 +23,18 @@ header a{
     font-weight: bold;
     letter-spacing: 1px;
 }
-header a:hover{
-  color:  whitesmoke;
-  
+nav .navbar-nav li a{
+  color: #70ad47 !important;
 }
+nav .navbar-nav li a:hover{
+  color: #fff !important;
+  text-decoration: underline;
+}
+
 .nav-item {
   padding: 0.9rem;
 }
+
 .landing-text h3{
   color: #70ad47;
   font-family: "Montserrat", sans-serif;
@@ -38,7 +43,8 @@ header a:hover{
   letter-spacing: 1px;
   text-align: center;
   text-transform: capitalize;
-  padding-top: 22vmin;
+  padding-top: 30vmin;
+  
 }
 .landing-text  span{
   color: #fff;
@@ -54,139 +60,18 @@ header a:hover{
 .about_container{
   background-color:#d2e8ac ;
 }
-.title{
-  margin-top: 40px;
-}
-.title h2{
+
+
+.about_container h1{
   font-family: "Montserrat", sans-serif;
-  font-size: 4vmin;
+  font-size: 3rem;
   font-weight: bolder;
-  letter-spacing: 1px;
-  color: #153b18;
-}
-.timeline{
-  margin-top: 40px;
-  margin-bottom: 40px;
-  box-sizing: border-box;
-  position: relative;
-}
-.timeline:before{
-  content: "";
-  position: absolute;
-  left: 50%;
-  width: 2px;
-  height: 100%;
-  background: #8ba68d;
-}
-.timeline ul{
-  margin: 0;
-  padding: 0;
-}
-.timeline ul li{
-  list-style: none;
-  position: relative;
-  width: 50%;
-  padding: 20px 40px;
-  box-sizing: border-box;
-}
-.timeline ul li:nth-child(odd){
-  float: left;
-  text-align: right;
-  clear: both;
-}
-.timeline ul li:nth-child(even){
-  float: right;
-  text-align: left;
-  clear: both;
-}
-.content{
-  padding-bottom: 20px;
-  border: solid 1px #eee;
-  padding: 10px 10px;
-  border-radius: 5px;
-  background: #fff;
-  text-align: justify;
-}
-.timeline ul li:nth-child(odd):before{
-  content: '';
-  position: absolute;
-  top: 24px;
-  right: -11px;
-  width: 20px;
-  height: 20px;
-  background: #008000;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
-
-}
-.timeline ul li:nth-child(even):before{
-  content: '';
-  position: absolute;
-  top: 24px;
-  left: -9px;
-  width: 20px;
-  height: 20px;
-  background: #008000;
-  border-radius: 50%;
-  box-shadow: 0 0 0 3px rgba(233,33,99,0.2);
-
-}
-.content h3{
-  margin: 0;
-  padding: 0;
-  font-weight: 600;
-  color: #153b18;
-}
-.content p{
-  font-family: "Raleway", sans-serif;
-  font-style: italic;
-  font-weight: 200;
-  margin: 10px 0 0;
-  padding: 0;
-  line-height: 1.7;
-  letter-spacing: 0.4px;
-}
-.time h4{
-  margin: 0;
-  padding: 0;
-  font-size: 16px;
-}
-
-li:nth-child(odd) .time{
-  position: absolute;
-  top: 12px;
-  right: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #202121;
-  color: #fff;
-  border-radius: 18px;
-}
-li:nth-child(even) .time{
-  position: absolute;
-  top: 12px;
-  left: -165px;
-  margin: 0;
-  padding: 8px 16px;
-  background: #70ad47;
-  color: #fff;
-  border-radius: 18px;
-}
-
-/* our team */
-.section-title{
-  text-align: center;
-}
-.section-title h1{
-  font-family: "Montserrat", sans-serif;
-  font-size: 4vmin;
-  font-weight: bolder;
-  letter-spacing: 1px;
+  letter-spacing: 0.8px;
   color: #fff;
   margin-top: 40px;
   
 }
-.section-title p{
+.about_container p{
   font-family: "Raleway", sans-serif;
   font-style: italic;
   font-weight: 200;
@@ -207,10 +92,10 @@ li:nth-child(even) .time{
   border: none;
 }
 div.card {
-  box-shadow: 0 4px 8px 0 rgba(220, 242, 220, 0.2), 0 6px 20px 0 rgba(220, 242, 220, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(220, 242, 220, 0.6), 0 6px 20px 0 rgba(220, 242, 220, 0.6);
 }
 div.card-border {
-  box-shadow: 0 4px 8px 0 rgba(220, 242, 220, 0.2), 0 6px 20px 0 rgba(220, 242, 220, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(220, 242, 220, 0.6), 0 6px 20px 0 rgba(220, 242, 220, 0.6);
 }
 .class-body{
   text-align: center;
@@ -222,6 +107,7 @@ div.card-border {
   font-weight: 900;
   font-style: italic;
   margin-bottom: 0.5rem;
+  color: #008000;
 }
 .img-title{
   font-family: "Montserrat",sans-serif;
@@ -250,28 +136,64 @@ div.card-border {
 .work_section{
   background-color: #d2e8ac;
 }
-.work_section h1{
+.about h1{
   font-family: "Montserrat", sans-serif;
   font-size: 4vmin;
   font-weight: bolder;
   letter-spacing: 1px;
-  color: #153b18;
+  color: #008000;
   padding-top: 1rem;
 }
-.work_section p{
-  font-family: "Montserrat",sans-serif;
+.work p,.about p{
+  font-family: "Raleway",sans-serif;
   font-style: italic;
+  font-size: 3vmin;
 }
 
-/* projects section/carousel */
-.carousel-item-next,
-.carousel-item-prev,
-.carousel-item.active{
-  transition: transform 1.2s ease;
-}
+/* work section/carousel */
 .carousel-item{
-
   background: no-repeat center center scroll;
   -webkit-background-size:cover;
   background-size: cover;
+  
 }
+ .carousel-caption{
+  position: absolute;
+  top: 57%;
+  transform: translateY(-50%);
+  
+}
+.carousel-caption h6{
+  font-family: "Montserrat",sans-serif;
+  font-size: 3.5vmin;
+}
+.carousel-caption p,a{
+  font-family: "Raleway",sans-serif;
+  font-size: 3vmin;
+}
+.border-top{
+  margin: 0 auto;
+}
+/* career */
+.jumbotron h1,.work h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vmin;
+  font-weight: bolder;
+  letter-spacing: 1px;
+  color: #008000;
+}
+.lead{
+  font-family: "Raleway",sans-serif;
+  font-size: 3vmin;
+  font-weight: 700;
+}
+.jumbotron{
+  background-color: #fff;
+}
+.jumbotron p{
+  font-family: "Raleway",sans-serif;
+  font-size: 4vmin;
+  color: #70ad47;
+}
+
+
