@@ -132,23 +132,62 @@ div.card-border {
 .fab{
   font-size: 1.3rem;
 }
+/* services */
+.services-section{
+  background-color: rgba(241, 236, 236, 0.8);
+  padding: 1.5rem;
+}
+.service-title{
+  font-family: "Montserrat",sans-serif;
+  margin: 0.5rem;
+}
+.service-description ul{
+  list-style: square;
+  
+}
+.service-description ul,li{
+  font-family: "Raleway",sans-serif;
+  padding: 0.2rem;
+  letter-spacing: 0.5px;
+}
+.service-icon{
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #069F1C;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  margin-left: 4rem;
+}
+.service-icon i{
+  font-size: 2rem;
+  color: #069F1C;
+  
+}
+.service-box{
+  padding: 1rem;
+}
+
+
 /* work-section */
 .work_section{
   background-color: #d2e8ac;
 }
-.about h1{
+.about h1,.service_section h1{
   font-family: "Montserrat", sans-serif;
   font-size: 4vmin;
   font-weight: bolder;
   letter-spacing: 1px;
   color: #008000;
-  padding-top: 1rem;
+  padding-top: 1.2rem;
 }
-.work p,.about p{
+.work p,.about p,.service_section p{
   font-family: "Raleway",sans-serif;
   font-style: italic;
   font-size: 3vmin;
 }
+
 
 /* work section/carousel */
 .carousel-item{
