@@ -156,7 +156,7 @@ div.card-border {
 }
 
 
-/* work-section */
+/* project-section */
 .work_section{
   background-color: #d2e8ac;
 }
@@ -175,7 +175,7 @@ div.card-border {
 }
 
 
-/* work section/carousel */
+/* project section/carousel */
 .carousel-item{
   background: no-repeat center center scroll;
   -webkit-background-size:cover;
@@ -219,6 +219,28 @@ div.card-border {
   font-family: "Raleway",sans-serif;
   font-size: 4vmin;
   color: #70ad47;
+}
+
+/* contact section */
+.contact_section{
+  background: #03080a;
+}
+.container_contact{
+  width: 100%;
+  padding: 20px;
+}
+.container_contact h2{
+  width: 100%;
+  color: #008000;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.row_contact{
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(autofit,minmax(300px,1fr));
 }
 
 
