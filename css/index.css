@@ -133,40 +133,26 @@ div.card-border {
   font-size: 1.3rem;
 }
 /* services */
-.services-section{
-  background-color: rgba(241, 236, 236, 0.8);
-  padding: 1.5rem;
-}
-.service-title{
+.card-body h5{
   font-family: "Montserrat",sans-serif;
-  margin: 0.5rem;
+  font-weight: bold;
 }
-.service-description ul{
+.card-body ul{
   list-style: square;
   
 }
-.service-description ul,li{
+.card-body ul,li{
   font-family: "Raleway",sans-serif;
-  padding: 0.2rem;
   letter-spacing: 0.5px;
 }
 .service-icon{
-  display: inline-block;
-  width: 70px;
-  height: 70px;
-  border: 3px solid #069F1C;
-  transform: rotate(45deg);
-  margin-bottom: 30px;
-  margin-top: 16px;
-  margin-left: 4rem;
+  margin: 1rem auto;
 }
 .service-icon i{
-  font-size: 2rem;
-  color: #069F1C;
+  font-size: 3.5rem;
+  color: #2D5C5A;
   
-}
-.service-box{
-  padding: 1rem;
+  
 }
 
 
