@@ -152,7 +152,6 @@ div.card-border {
   font-size: 3.5rem;
   color: #2D5C5A;
   
-  
 }
 
 
@@ -223,7 +222,7 @@ div.card-border {
 
 /* contact section */
 .contact_section{
-  background: #03080a;
+  background: #292828;
 }
 .container_contact{
   width: 100%;
@@ -232,15 +231,114 @@ div.card-border {
 .container_contact h2{
   width: 100%;
   color: #008000;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
   margin-bottom: 10px;
 }
-.row_contact{
+.row100{
   position: relative;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(autofit,minmax(300px,1fr));
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+}
+.row100 .col{
+  position: relative;
+  width: 100%;
+  padding: 0 10px;
+  margin: 30px 0 10px;
+  transition: 0.5s;
+}
+.row100 .col .inputBox{
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #008000;
+}
+.row100 .col .inputBox input{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  box-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 0 10px;
+  z-index: 1;
+  color: #000;
+}
+.row100 .col .inputBox .text{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: "Montserrat",sans-serif;
+  padding: 0 10px;
+  display: block;
+  transition: 0.5s;
+  pointer-events: none;
+}
+.row100 .col .inputBox input:focus + .text,
+.row100 .col .inputBox input:valid + .text{
+  top: -35px;
+  left: -10px;
+}
+.row100 .inputBox .line{
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #008000;
+  transition: 0.5s;
+  border-radius: 2px;
+  pointer-events: none;
+}
+.row100 .col .inputBox input:focus ~ .line,
+.row100 .col .inputBox input:valid ~.line{
+  height: 100%;
+}
+input[type="submit"]{
+  border: none;
+  padding: 7px 35px;
+  cursor: pointer;
+  outline: none;
+  background: #008000;
+  font-size: 18px;
+  font-family: "Montserrat",sans-serif;
+  border-radius: 2px;
 }
 
-
+/* footer */
+.footer_container h1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  color: #70ad47;
+}
+.footer_container h4{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 900;
+  color: #70ad47;
+}
+.footer_container p{
+  font-family: "Raleway",sans-serif;
+  letter-spacing: 1px;
+}
+.social-icons{
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icons .fab{
+  color: #008000;
+  border: 1px solid #70ad47;
+  border-radius: 50%;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+.carousel-item img{
+  height: 500px;
+}
+ 
