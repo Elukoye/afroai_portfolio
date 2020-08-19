@@ -342,3 +342,15 @@ input[type="submit"]{
   height: 500px;
 }
  
+/* black lives matter */
+.blm_img img{
+  background-size: cover;
+}
+.blm_container{
+ 
+  background-repeat: no-repeat;
+  background-size: cover,contain;
+  background-position: center;
+  height: 245vh;
+  margin: 1.5rem 0;
+}
